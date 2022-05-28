@@ -19,6 +19,7 @@
     &.left {
       left: 100px;
       transform: rotateY(180deg);
+      
     }
 
     &.right {
@@ -37,6 +38,7 @@
       height: 100vh;
       flex-direction: column;
       justify-content: center;
+      top: 10px;
     }
 
     .container {
@@ -125,7 +127,8 @@
 
           img {
             width: 400px;
-            transform: rotate(-10deg);
+            
+            
           }
         }
       }

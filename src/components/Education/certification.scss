@@ -38,6 +38,7 @@
       height: 100vh;
       flex-direction: column;
       justify-content: center;
+      top: 10px;
     }
 
     .container {
@@ -71,6 +72,12 @@
 
           img {
             width: 400px;
+
+            @include mobile{
+              width: 80%;
+              height: 100%;
+              margin: 10px 10px;
+            }
             
           }
         }
