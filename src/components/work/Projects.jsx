@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./projects.scss";
 
+
 export default function Projects() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
@@ -25,7 +26,7 @@ export default function Projects() {
     {
       id: "3",
       icon: "./assets/react.png",
-      title: "Branding",
+      title: "Website",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
@@ -34,7 +35,7 @@ export default function Projects() {
     {
       id: "4",
       icon: "./assets/Csharp.png",
-      title: "Branding",
+      title: "Game",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
@@ -43,7 +44,7 @@ export default function Projects() {
     {
       id: "5",
       icon: "./assets/SQL Server.jfif",
-      title: "Branding",
+      title: "Data control",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
@@ -52,7 +53,7 @@ export default function Projects() {
     {
       id: "5",
       icon: "./assets/javascript.png",
-      title: "Branding",
+      title: "Game",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:

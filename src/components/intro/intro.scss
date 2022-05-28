@@ -14,26 +14,26 @@
         flex: 0.5;
         overflow: hidden;
 
-        .imgContainer{
+        .imgContainer {
             width: 700px;
             height: 700px;
-            background-color: rgb(220, 64, 64);
+            background-color: crimson;
             border-radius: 50%;
             display: flex;
             align-items: flex-end;
             justify-content: center;
             float: right;
-
+      
             @include mobile{
-                align-items: flex-start;
+              align-items: flex-start;
             }
-
-            .img{
-                height: 90%;
-
-                @include mobile{
-                    height: 50%;
-                }
+      
+            img {
+              height: 90%;
+      
+              @include mobile{
+                height: 50%;
+              }
             }
         }
       

@@ -44,6 +44,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      
 
       .item {
         width: 700px;
@@ -55,9 +56,11 @@
         justify-content: center;
 
         @include mobile {
-          width: 80%;
-          height: 150px;
-          margin: 15px 0;
+          width: 90%;
+          height: 90%;
+          margin: 5px 0;
+          
+          
         }
 
         .left {
@@ -109,12 +112,6 @@
                 display: none;
               }
             }
-            span {
-              font-size: 12px;
-              font-weight: 600;
-              text-decoration: underline;
-              cursor: pointer;
-            }
           }
         }
         .right {
@@ -124,10 +121,11 @@
           align-items: center;
           justify-content: center;
           overflow: hidden;
+         
 
           img {
             width: 400px;
-            
+            transform: rotate(-10deg);
           }
         }
       }
