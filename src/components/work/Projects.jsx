@@ -10,7 +10,7 @@ export default function Projects() {
       icon: "./assets/html-css.png",
       title: "Web Design",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        "A basic Website created for Eleda alterations",
       img:
         "assets/Eleda_Alter.png",
     },
@@ -19,7 +19,7 @@ export default function Projects() {
       icon: "./assets/mobile.png",
       title: "Mobile Application",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Amobile App version of Eleda alterations",
       img:
         "assets/logo.jpg",
     },
@@ -28,16 +28,16 @@ export default function Projects() {
       icon: "./assets/react.png",
       title: "Website",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "This is still in progress coming soon",
       img:
-        "assets/Eleda Design Template.png",
+        "assets/inprogress.png",
     },
     {
       id: "4",
       icon: "./assets/Csharp.png",
       title: "Game",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "A simple mario like side scrolling game created with C# in visual studio",
       img:
         "assets/side-scrolling game.png",
     },
@@ -46,7 +46,7 @@ export default function Projects() {
       icon: "./assets/SQL Server.jfif",
       title: "Data control",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "A stock control management system designed in visual studio with SQL database",
       img:
         "assets/data sql.png",
     },
@@ -55,7 +55,7 @@ export default function Projects() {
       icon: "./assets/javascript.png",
       title: "Game",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "A simple pong game in Javascript",
       img:
         "assets/pong.png",
     },
